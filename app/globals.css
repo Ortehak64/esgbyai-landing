@@ -1,4 +1,4 @@
-echo "/* Basic global styles */
+/* Basic global styles */
 html, body {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@ html, body {
   background: #0a0a0a;
   color: white;
 }
+
 * {
   box-sizing: border-box;
-}" > app/globals.css
-box; }" > app/globals.css
+}
