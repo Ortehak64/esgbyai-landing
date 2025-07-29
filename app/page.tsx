@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 export default function HomePage() {
   return (
@@ -21,3 +22,31 @@ export default function HomePage() {
   );
 }
     
+=======
+export default function Home() {
+  return (
+    <div className="max-w-3xl mx-auto text-center">
+      <h1 className="text-4xl font-bold mb-4">Welcome to ESGbyAI</h1>
+      <p className="mb-8 text-gray-300">
+        AI-powered ESG reporting tools for businesses striving to meet tomorrow’s standards today.
+      </p>
+      <ul className="text-left space-y-2" id="features">
+        {['Automated ESG data collection',
+          'Real-time analytics dashboards',
+          'AI-assisted report generation',
+          'Sustainability KPI tracking',
+          'Regulatory compliance checks',
+          'Benchmarking & peer analysis',
+          'Audit-ready documentation',
+          'Carbon footprint calculations',
+          'Risk & materiality assessments',
+          'Integrated stakeholder dashboards'].map((feature, idx) => (
+            <li key={idx} className="flex items-center gap-2">
+              <span className="text-green-400">✓</span> {feature}
+            </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+>>>>>>> b42dcdbd97e20d9c4725c6be9343eef8ad9f72b8

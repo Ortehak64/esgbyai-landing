@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> b42dcdbd97e20d9c4725c6be9343eef8ad9f72b8
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+<<<<<<< HEAD
   background-color: #0f172a;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
     
+=======
+  font-family: sans-serif;
+}
+>>>>>>> b42dcdbd97e20d9c4725c6be9343eef8ad9f72b8
